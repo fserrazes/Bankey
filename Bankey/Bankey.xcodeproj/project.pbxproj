@@ -55,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				0D5853922902BE9400E7F024 /* AppDelegate.swift */,
-				0D5853962902BE9400E7F024 /* LoginViewController.swift */,
 				0D5853A62902C2C200E7F024 /* Login */,
 				0D58539B2902BE9500E7F024 /* Assets.xcassets */,
 				0D58539D2902BE9500E7F024 /* LaunchScreen.storyboard */,
@@ -68,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				0D5853A72902C2FF00E7F024 /* LoginView.swift */,
+				0D5853962902BE9400E7F024 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
