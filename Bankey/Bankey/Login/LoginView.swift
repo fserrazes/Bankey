@@ -24,7 +24,6 @@ class LoginView: UIView {
 
 extension LoginView {
     private func style() {
-        translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = .secondarySystemBackground
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
