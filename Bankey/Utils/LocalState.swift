@@ -1,7 +1,9 @@
 //  Created on 21.10.22
 //  Copyright © 2022 Flavio Serrazes. All rights reserved.
 
-import Foundation
+import UIKit
+
+let appColor: UIColor = .systemTeal
 
 public class LocalState {
     
