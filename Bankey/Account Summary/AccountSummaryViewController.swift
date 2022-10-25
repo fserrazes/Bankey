@@ -102,7 +102,6 @@ extension AccountSummaryViewController: UITableViewDataSource {
         
         if isLoaded {
             let cell = tableView.dequeueReusableCell(withIdentifier: AccountSummaryCell.reuseId, for: indexPath) as! AccountSummaryCell
-            let account = accountCellViewModels[indexPath.row]
             cell.configure(with: account)
             return cell
         }
