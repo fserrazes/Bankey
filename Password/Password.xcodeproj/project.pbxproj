@@ -11,6 +11,7 @@
 		0DE802DA2909681D00996E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE802D92909681D00996E09 /* ViewController.swift */; };
 		0DE802DF2909681E00996E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE802DE2909681E00996E09 /* Assets.xcassets */; };
 		0DE802E22909681E00996E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE802E02909681E00996E09 /* LaunchScreen.storyboard */; };
+		0DE802EA29096BFA00996E09 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE802E929096BFA00996E09 /* PasswordTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0DE802DE2909681E00996E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DE802E12909681E00996E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DE802E32909681E00996E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE802E929096BFA00996E09 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0DE802D52909681D00996E09 /* AppDelegate.swift */,
 				0DE802D92909681D00996E09 /* ViewController.swift */,
+				0DE802E929096BFA00996E09 /* PasswordTextField.swift */,
 				0DE802DE2909681E00996E09 /* Assets.xcassets */,
 				0DE802E02909681E00996E09 /* LaunchScreen.storyboard */,
 				0DE802E32909681E00996E09 /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				0DE802DA2909681D00996E09 /* ViewController.swift in Sources */,
 				0DE802D62909681D00996E09 /* AppDelegate.swift in Sources */,
+				0DE802EA29096BFA00996E09 /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
