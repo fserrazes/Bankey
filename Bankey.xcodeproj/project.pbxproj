@@ -21,6 +21,8 @@
 		0D5853B9290497C900E7F024 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5853B8290497C900E7F024 /* AccountSummaryViewController.swift */; };
 		0D5853BB29067A2900E7F024 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5853BA29067A2900E7F024 /* AccountSummaryHeaderView.swift */; };
 		0D5853BD29067AA000E7F024 /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D5853BC29067AA000E7F024 /* AccountSummaryHeaderView.xib */; };
+		0D6A47EE29087B11005101C8 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A47ED29087B11005101C8 /* ProfileManager.swift */; };
+		0D6A47F029087C6A005101C8 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A47EF29087C6A005101C8 /* AccountSummaryViewControllerTests.swift */; };
 		0DFC4E172906880C000E0B00 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC4E162906880C000E0B00 /* AccountSummaryCell.swift */; };
 		0DFC4E1929069D02000E0B00 /* Decimal+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC4E1829069D02000E0B00 /* Decimal+Util.swift */; };
 		0DFC4E1B29069D33000E0B00 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFC4E1A29069D33000E0B00 /* CurrencyFormatter.swift */; };
@@ -63,6 +65,8 @@
 		0D5853B8290497C900E7F024 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		0D5853BA29067A2900E7F024 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		0D5853BC29067AA000E7F024 /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
+		0D6A47ED29087B11005101C8 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		0D6A47EF29087C6A005101C8 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 		0DFC4E162906880C000E0B00 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		0DFC4E1829069D02000E0B00 /* Decimal+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Util.swift"; sourceTree = "<group>"; };
 		0DFC4E1A29069D33000E0B00 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -172,8 +176,17 @@
 				0DFC4E3229073A05000E0B00 /* AccountSummaryViewController+Networking.swift */,
 				0DFC4E14290687D9000E0B00 /* Header */,
 				0DFC4E15290687E7000E0B00 /* Cells */,
+				0D6A47EC29087AFE005101C8 /* Networking */,
 			);
 			path = "Account Summary";
+			sourceTree = "<group>";
+		};
+		0D6A47EC29087AFE005101C8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0D6A47ED29087B11005101C8 /* ProfileManager.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		0DFC4E14290687D9000E0B00 /* Header */ = {
@@ -225,6 +238,7 @@
 			children = (
 				0DFC4E362907EDAC000E0B00 /* ProfileTests.swift */,
 				0DFC4E382907EEA8000E0B00 /* AccountTests.swift */,
+				0D6A47EF29087C6A005101C8 /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -333,6 +347,7 @@
 				0D5853B429048FC300E7F024 /* UIViewController+Utils.swift in Sources */,
 				0DFC4E3D2908210F000E0B00 /* SkeletonCell.swift in Sources */,
 				0DFC4E31290737F5000E0B00 /* Date+Utils.swift in Sources */,
+				0D6A47EE29087B11005101C8 /* ProfileManager.swift in Sources */,
 				0D5853A82902C2FF00E7F024 /* LoginView.swift in Sources */,
 				0D5853B22903428700E7F024 /* LocalState.swift in Sources */,
 				0D5853BB29067A2900E7F024 /* AccountSummaryHeaderView.swift in Sources */,
@@ -361,6 +376,7 @@
 				0DFC4E232906CF5E000E0B00 /* CurrencyFormatterTests.swift in Sources */,
 				0DFC4E392907EEA8000E0B00 /* AccountTests.swift in Sources */,
 				0DFC4E372907EDAC000E0B00 /* ProfileTests.swift in Sources */,
+				0D6A47F029087C6A005101C8 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
