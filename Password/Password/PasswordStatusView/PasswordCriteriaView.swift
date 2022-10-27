@@ -42,7 +42,7 @@ class PasswordCriteriaView: UIView {
         return CGSize(width: 200, height: 40)
     }
     
-    private func reset() {
+    func reset() {
         isCriteriaMet = false
         imageView.image = circleImage
     }
