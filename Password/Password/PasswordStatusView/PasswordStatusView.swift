@@ -7,7 +7,7 @@ class PasswordStatusView: UIView {
     private let stackView = UIStackView()
     private let criteriaLabel = UILabel()
     
-    private let lengthCriteriaView = PasswordCriteriaView(text: "8-32 characters (no spaces)")
+    public let lengthCriteriaView = PasswordCriteriaView(text: "8-32 characters (no spaces)")
     private let uppercaseCriteriaView = PasswordCriteriaView(text: "uppercase letter (A-Z)")
     private let lowerCaseCriteriaView = PasswordCriteriaView(text: "lowercase (a-z)")
     private let digitCriteriaView = PasswordCriteriaView(text: "digit (0-9)")

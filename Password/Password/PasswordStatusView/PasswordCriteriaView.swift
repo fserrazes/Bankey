@@ -5,10 +5,10 @@ import UIKit
 
 class PasswordCriteriaView: UIView {
     private let stackView = UIStackView()
-    private let imageView = UIImageView()
+    public let imageView = UIImageView()
     private let label = UILabel()
     
-    private let circleImage = UIImage(systemName: "circle")!
+    public let circleImage = UIImage(systemName: "circle")!
         .withTintColor(.tertiaryLabel, renderingMode: .alwaysOriginal)
     
     var isCriteriaMet: Bool = false {

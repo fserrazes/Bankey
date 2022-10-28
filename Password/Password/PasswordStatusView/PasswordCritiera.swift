@@ -8,7 +8,7 @@ struct PasswordCriteria {
         text.count >= 8 && text.count <= 32
     }
     
-    private static func noSpaceCriteriaMet(_ text: String) -> Bool {
+    static func noSpaceCriteriaMet(_ text: String) -> Bool {
         text.rangeOfCharacter(from: NSCharacterSet.whitespaces) == nil
     }
         

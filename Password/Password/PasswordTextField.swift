@@ -19,7 +19,7 @@ class PasswordTextField: UIView {
     private let lockImageView = UIImageView(image: UIImage(systemName: "lock.fill"))
     private let eyeButton = UIButton(type: .custom)
     private let dividerView = UIView()
-    private let errorLabel = UILabel()
+    public let errorLabel = UILabel()
     
     private let placeHolderText: String
     public var customValidation: CustomValidation?
