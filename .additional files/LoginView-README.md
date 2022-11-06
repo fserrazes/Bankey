@@ -13,6 +13,6 @@ The start screen for logging into the application. For quick access, you do not 
 + After your first login, an OnboardingView will appear with additional information about the app
 + Next time you login to the application, the main screen will appear immediately
 
-![startApp](/.screenshots/login-view-start-app.gif)
-![textField](/.screenshots/login-view-textfield.gif)
-![errorMessage](/.screenshots/login-view-error.gif)
+![startApp](.screenshots/login-view-start-app.gif)
+![textField](.screenshots/login-view-textfield.gif)
+![errorMessage](.screenshots/login-view-error.gif)

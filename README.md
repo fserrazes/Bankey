@@ -13,8 +13,8 @@ The course is very well organised, despite my experience, I was able to extract 
 ## Sections
 
 + __[LoginView](/.additional%20files/LoginView-README.md)__
-+ __[Onboarding](/.additional%20files/OnboardingREADME.md)__
-+ __[AccountSummary](/.additional%20files/AccountSummaryREADME.md)__
++ __[Onboarding](/.additional%20files/Onboarding-README.md)__
++ __[AccountSummary](/.additional%20files/AccountSummary-README.md)__
 + __[Animations](/.additional%20files/AnimationREADME.md)__
 
 ## Considerations (Donsides)
