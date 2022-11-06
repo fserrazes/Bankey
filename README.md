@@ -15,9 +15,9 @@ The course is very well organised, despite my experience, I was able to extract 
 + __[LoginView](/.additional%20files/LoginView-README.md)__
 + __[Onboarding](/.additional%20files/Onboarding-README.md)__
 + __[AccountSummary](/.additional%20files/AccountSummary-README.md)__
-+ __[Animations](/.additional%20files/AnimationREADME.md)__
++ __[Animations](/.additional%20files/Animation-README.md)__
 
-## Considerations (Donsides)
+## Considerations (Downside)
 
 1. Some methods and variables were declared as public only to be tested.
 2. The two projects `Bankey` and `Password` could be integrated. In fact there is no reason for them to be separate.
