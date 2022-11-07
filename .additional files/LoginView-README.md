@@ -1,7 +1,5 @@
 # LoginView
 
-## Description
-
 The start screen for logging into the application. For quick access, you do not need to enter a password and login.
 
 ### Features

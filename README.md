@@ -1,6 +1,7 @@
 # Bankey
 
 <p>
+    <img src="https://github.com/fserrazes/Bankey/actions/workflows/CI.yml/badge.svg" />
     <img src="https://img.shields.io/badge/iOS-15.0+-orange.svg"/>
 </p>
 
